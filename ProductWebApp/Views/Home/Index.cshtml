@@ -133,7 +133,7 @@
             <div class="container">
                 <div id="gallery" style="display:none;">
                     @{
-                        for (int i = 1; i <= 25; i++)
+                        for (int i = 1; i <= 21; i++)
                         {
                             string imageThumbpath = "../Content/unitegallery/images/thumbs/image" + @i + ".jpeg";
                             string bigImagepath = "../Content/unitegallery/images/big/image" + @i + ".jpeg";
@@ -146,7 +146,7 @@
                         }
                     }
 
-                    <img alt="Youtube Video"
+                    @*<img alt="Youtube Video"
                          data-type="youtube"
                          data-videoid="A3PDXmYoF5U"
                          data-description="You can include youtube videos easily!">
@@ -156,23 +156,18 @@
                          src="http://i.vimeocdn.com/video/447294219_200x150.jpg"
                          data-image="http://i.vimeocdn.com/video/447294219_640.jpg"
                          data-videoid="73234449"
-                         data-description="This gallery can also play vimeo videos!">
+                         data-description="This gallery can also play vimeo videos!">*@
                 </div>
-
                 <script type="text/javascript">
                     jQuery(document).ready(function () {
                         jQuery("#gallery").unitegallery({
-                            slider_scale_mode: "fit",
-                            //gallery_theme: "slider"
-                             
+                            slider_scale_mode: "fit"
                         });
                     });
                 </script>
-
                 <div class="arrow">
                     <a href="#view360" class="scroll"><img src="~/Content/images/arrow.png" alt="" /></a>
                 </div>
-
             </div>
         </div>
     </div>
@@ -187,15 +182,7 @@
         <div class="arrow">
             <a href="#contact" class="scroll"><img src="~/Content/images/arrow.png" alt="" /></a>
         </div>
-
-    </div>
-    @*<div class="portfolio-section-bottom-row" id="portfolioVerticle">
-            <div class="container">
-                <div id="view360Verticle" class="">
-
-                </div>
-            </div>
-        </div>*@
+    </div>  
     <!-- 360 view-ends -->
 </div>
 <div class="footer-section" id="contact" id="contact">
