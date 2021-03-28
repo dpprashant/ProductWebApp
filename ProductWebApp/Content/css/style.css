@@ -133,6 +133,7 @@ nav a {
 }
 
     .cl-effect-5 a span {
+        margin-right : 5px;
         position: relative;
         display: inline-block;
         -webkit-transition: -webkit-transform 0.3s;

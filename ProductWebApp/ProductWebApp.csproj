@@ -152,6 +152,7 @@
     <Content Include="Content\images\logo.png" />
     <Content Include="Content\images\logo1.png" />
     <Content Include="Content\images\nav.png" />
+    <Content Include="Content\images\Pause.jpg" />
     <Content Include="Content\images\pic-1.jpg" />
     <Content Include="Content\images\pic-2.jpg" />
     <Content Include="Content\images\pic-3.jpg" />
@@ -161,6 +162,7 @@
     <Content Include="Content\images\pic-7.jpg" />
     <Content Include="Content\images\pic-8.jpg" />
     <Content Include="Content\images\pic-9.jpg" />
+    <Content Include="Content\images\Play.jpg" />
     <Content Include="Content\images\to-top2.png" />
     <Content Include="Content\images\whatsapp.png" />
     <Content Include="Content\images\zoom-icon.png" />
