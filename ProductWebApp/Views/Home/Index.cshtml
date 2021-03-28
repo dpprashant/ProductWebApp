@@ -17,10 +17,10 @@
                 <span class="menu"> </span>
                 <ul>
                     <nav class="cl-effect-5">
-                        <li><a class="#head" class="scroll"><span data-hover="home">home</span></a></li>
-                        <li><a href="#about" class="scroll"><span data-hover="about">about</span></a></li>
-                        <li><a href="#work" class="scroll"><span data-hover="work"><span>work</span></a></li>
-                        <li><a href="#contact" class="scroll"><span data-hover="contact">contact</span></a></li>
+                        <li><a class="#head" class="scroll"><span data-hover="Home">Home</span></a></li>
+                        <li><a href="#about" class="scroll"><span data-hover="AboutUs">AboutUs</span></a></li>
+                        <li><a href="#work" class="scroll"><span data-hover="Gallery"><span>Gallery</span></a></li>
+                        <li><a href="#contact" class="scroll"><span data-hover="Contact">Contact</span></a></li>
                     </nav>
                 </ul>
             </div>
@@ -46,7 +46,7 @@
                     <article style="position: relative; width: 100%; opacity: 1;">
                         <div class="banner-wrap">
                             <div class="banner_center">
-                                <h1>Celebrating 20 years of success </h1>
+                                <h1>Celebrating 20 years of success.</h1>
                                 @*<h2>Services 1 <span>Services 2</span></h2>
                                     <h2>Contrary</h2>*@
                             </div>
@@ -56,11 +56,10 @@
                         <div class="banner-wrap">
                             <div class="banner_center">
                                 <h1>
-                                    Specialized and only manufacturer Shutter
-                                    in texttile industries
+                                    Specialized shuttle manufacturer
+                                    in textile industries.
                                 </h1>
-                                @*<h2>Contrary to <span>&  designer</span></h2>
-                                    <h2>reproduced below</h2>*@
+                                
                             </div>
                         </div>
                     </article>
@@ -82,16 +81,23 @@
                     <img src="~/Content/images/Aboutus.png" class="img-fluid" />
                 </div>
                 <div class="col-md-9 col-12 text-md-left text-center">
-                    <h3 class="text-capitalize mb-3 mt-4">about us</h3>
+                    <h3>About us</h3>
                     <p class="f16 lh25">
-                        Vishwakarma Industaries was a dream of S. R. PATEL Family. It was established in the Goal achived by constant endevour of VINODBHAI & SAHJANANDBHAI. First time in india new technology intodused in hylam block and shuttle to improve quality and cutdown the cost to stay in the market in throught out compition. The new technolgy was  heat the material by steam and made a cavity block.
-                        Above all the make a good position and most trusted company in hylame shuttle Industries.
-                        More ever we are still working hard to fulfill requirements of customer and satisfied then by quality of our product. We have a good ability to fulfill present requirements and for the future.
-                        In this three decade we expand our business from gujarat to all over india.
-                        All this happened with the help and support of our loyal Customers.                        
+                        Vishwakarma Industries was a dream of S.R.PATEL Family. It was established in 1971 and the Goal achieved by constant endeavor of Mr.VINOD & Mr.SAHJANAND.
                     </p>
-                    <p class="f16 lh25">A shuttle is a tool designed to neatly and compactly store a holder that carries the thread of the weft yarn while weaving with a loom. Shuttles are thrown or passed back and forth through the shed, between the yarn threads of the warp in order to weave in the weft.</p>
-                    <div class="clearfix"></div>
+                    <br />
+                    <p class="f16 lh25">
+                        Our company started to design and manufacture a shuttle which is a tool, neatly designed and compactly store a holder that carries the thread of the weft yarn while weaving with a loom. Shuttles are thrown or passed back and forth through the shed, between the yarn threads of the warp in order to weave in the weft.
+                    </p><br />
+                    <p class="f16 lh25">
+                        Later we introduced a new technology first time in india in hylam block and shuttle to improve the quality and cut down the cost. The new technology is to heat the material with steam and make a cavity block.
+                    </p><br />
+                    <p class="f16 lh25">
+                        We are still working hard to constantly improve the quality of our product to improve customer satisfaction and productivity, which brings us in a good position and most trusted company in hylame shuttle Industries.
+                        We have a highly skilled team having years of experience which help us fulfill current and future requirements.
+                        With the help of skilled team, loyal customers, dream of our founder and decades of efforts has helped us to expand our business from Gujarat to all over India.
+                    </p>
+                    @*<div class="clearfix"></div>*@
                     @*<div class="services-sectiongrids">
             <div class="col-md-6 services-grid">
                 <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY" />
@@ -110,7 +116,7 @@
                 </div>
             </div>
             <div class="clearfix"></div>
-            <br />
+            
 
             <div class="arrow1">
                 <a href="#work" class="scroll"><img src="~/Content/images/arrow1.png" alt="" /></a>
@@ -120,8 +126,8 @@
     <!-- about-section-ends -->
     <div class="works-section" id="work">
         <div class="works-header">
-            <h3>works</h3>
-            <p>Manufacturer of all types textile hylam shuttle and block. </p>
+            <h3>Product Gallery</h3>
+            @*<p>Manufacturer of all types textile hylam shuttle and block.</p>*@
         </div>
         <div class="portfolio-section-bottom-row" id="portfolio">
             <div class="container">
@@ -155,7 +161,10 @@
 
                 <script type="text/javascript">
                     jQuery(document).ready(function () {
-                        jQuery("#gallery").unitegallery();
+                        jQuery("#gallery").unitegallery({
+                            slider_scale_mode: "fit",
+                            thumb_fixed_size: true                            
+                        });
                     });
                 </script>
 
@@ -194,7 +203,7 @@
             <div class="col-lg-6 col-12">
                 <div class="contact-header">
                     <h3>contact us</h3>
-                    <p>Company Address : Plot No 705,  Dehgam  G IDC,  Dehgam, Gandhinagar. 382305 </p>
+                    <p>Company Address : Plot No 705,  Dehgam  GIDC,  Dehgam, Gandhinagar. 382305 </p>
                 </div>
                 <div class="social-icon">
                     <a href="https://www.twitter.com/vishwakarmabiz" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
