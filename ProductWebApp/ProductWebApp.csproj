@@ -137,7 +137,6 @@
     <Content Include="Content\images\Aboutus.png" />
     <Content Include="Content\images\arrow.png" />
     <Content Include="Content\images\arrow1.png" />
-    <Content Include="Content\images\banner.jpeg" />
     <Content Include="Content\images\banner.jpg" />
     <Content Include="Content\images\banner.png" />
     <Content Include="Content\images\gallary\Img1.jpeg" />
@@ -180,7 +179,6 @@
     <Content Include="Content\js\tikslus360.min.js" />
     <Content Include="Content\unitegallery\css\unite-gallery.css" />
     <Content Include="Content\unitegallery\images\big\image1.jpeg" />
-    <Content Include="Content\unitegallery\images\big\image1.jpg" />
     <Content Include="Content\unitegallery\images\big\image10.jpeg" />
     <Content Include="Content\unitegallery\images\big\image11.jpeg" />
     <Content Include="Content\unitegallery\images\big\image12.jpeg" />
@@ -192,7 +190,6 @@
     <Content Include="Content\unitegallery\images\big\image18.jpeg" />
     <Content Include="Content\unitegallery\images\big\image19.jpeg" />
     <Content Include="Content\unitegallery\images\big\image2.jpeg" />
-    <Content Include="Content\unitegallery\images\big\image2.jpg" />
     <Content Include="Content\unitegallery\images\big\image20.jpeg" />
     <Content Include="Content\unitegallery\images\big\image21.jpeg" />
     <Content Include="Content\unitegallery\images\big\image22.jpeg" />
@@ -204,9 +201,7 @@
     <Content Include="Content\unitegallery\images\big\image28.jpeg" />
     <Content Include="Content\unitegallery\images\big\image29.jpeg" />
     <Content Include="Content\unitegallery\images\big\image3.jpeg" />
-    <Content Include="Content\unitegallery\images\big\image3.jpg" />
     <Content Include="Content\unitegallery\images\big\image4.jpeg" />
-    <Content Include="Content\unitegallery\images\big\image4.jpg" />
     <Content Include="Content\unitegallery\images\big\image5.jpeg" />
     <Content Include="Content\unitegallery\images\big\image6.jpeg" />
     <Content Include="Content\unitegallery\images\big\image7.jpeg" />
@@ -382,6 +377,7 @@
     <Content Include="Global.asax" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
