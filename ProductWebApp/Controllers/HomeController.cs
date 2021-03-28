@@ -23,6 +23,16 @@ namespace ProductWebApp.Controllers
             {
                 if (ModelState.IsValid)
                 {
+                    MailMessage message = new MailMessage();
+                    message.From = new MailAddress("info@vishwakarmaindustries.biz");
+
+                    message.To.Add(new MailAddress("dpprashant1@gmail.com"));
+
+                    message.Subject = "test Subject";//subject;
+                    message.Body = "Body info";//body;
+
+                    SmtpClient client = new SmtpClient();
+                    client.Send(message);
 
                     //MailMessage message = new MailMessage();
                     //message.From = new MailAddress("dpprashant1@gmail.com");
@@ -35,13 +45,13 @@ namespace ProductWebApp.Controllers
                     //SmtpClient client = new SmtpClient();
                     //client.Send(message);
 
-                    var smptClient = new SmtpClient("smtp.gmail.com", 587)
-                    {
-                        UseDefaultCredentials = false,
-                        Credentials = new NetworkCredential("dpprashant1@gmail.com", "9429715419@Heli"),
-                        EnableSsl = true                       
-                    };
-                    smptClient.Send("bjrisingtechlabs@gmail.com", "dpprashant1@gmail.com", "Testing Email", "testing the email");
+                    //var smptClient = new SmtpClient("smtp.gmail.com", 587)
+                    //{
+                    //    UseDefaultCredentials = false,
+                    //    Credentials = new NetworkCredential("dpprashant1@gmail.com", "9429715419@Heli"),
+                    //    EnableSsl = true                       
+                    //};
+                    //smptClient.Send("bjrisingtechlabs@gmail.com", "dpprashant1@gmail.com", "Testing Email", "testing the email");
 
 
                     //var senderEmail = new MailAddress("bjrisingtechlabs@gmail.com", "PD");
