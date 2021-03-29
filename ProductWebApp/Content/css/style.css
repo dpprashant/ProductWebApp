@@ -54,9 +54,19 @@ ul {
 .f20 {
     font-size: 16px;
 }
+.f30 {
+    font-size: 30px !important;
+}
+.f40 {
+    font-size: 40px !important;
+}
+
+.text-white {
+    color:#fff;
+}
 
 .lh24 {
-    line-height:24px;
+    line-height: 24px;
 }
 .lh25 {
     line-height: 25px;
@@ -505,13 +515,15 @@ ul.wmuSliderPagination {
 .wmuSliderNext {
     background-position: -360px 0px;
     right: 0em;
-    top: 210px;
+    top: 50%;
+    transform: translate(0, -50%);
 }
 
 .wmuSliderPrev {
     background-position: -320px 0px;
     left: 0em;
-    top: 210px;
+    top: 50%;
+    transform: translate(0, -50%);
 }
 
 .portfolio-section-top-row-right-grid {
@@ -817,19 +829,15 @@ h2.resp-accordion {
     background: #2e3e4e;
 }
 
-.contact-header {
-    text-align: center;
-    width: 85%;
-    margin: 0 auto;
-}
 
-    .contact-header h3 {
-        font-size: 2.5em;
-        font-family: 'Arvo', serif;
-        text-transform: uppercase;
-        font-weight: 400;
-        color: #ef664d;
-    }
+
+   
+.section-title {
+    font-size: 2.5em;
+    font-family: 'Arvo', serif;    
+    font-weight: 400;
+    color: #ef664d;
+}
 
         .contact-header h3 span {
             color: #fefefe;
@@ -983,7 +991,7 @@ h2.resp-accordion {
 
 .footer-bottom {
     text-align: center;
-    padding-top: 40px;
+    padding-top: 30px;
     border-top: 1px solid#55626f;
 }
 
@@ -1038,13 +1046,8 @@ h2.resp-accordion {
         font-size: 1.9em;
     }
 
-    .wmuSliderPrev {
-        top: 195px;
-    }
+ 
 
-    .wmuSliderNext {
-        top: 195px;
-    }
 
     .services-header h3 {
         font-size: 2.2em;
@@ -1148,13 +1151,7 @@ h2.resp-accordion {
         min-height: 360px;
     }
         
-    .wmuSliderPrev {
-        top: 95px;
-    }
-
-    .wmuSliderNext {
-        top: 95px;
-    }
+    
 
     .banner_center h1 {
         font-size: 1.5em;
@@ -1194,9 +1191,7 @@ h2.resp-accordion {
         padding: 15px 0;
     }
 
-    .works-section {
-        padding: 2em 0;
-    }
+    
 
     .works-header h3 {
         font-size: 2em;
@@ -1534,13 +1529,7 @@ h2.resp-accordion {
             padding: 3px 0;
         }
 
-    .wmuSliderNext {
-        top: 80px;
-    }
-
-    .wmuSliderPrev {
-        top: 80px;
-    }
+  
 
     
 
@@ -1898,4 +1887,13 @@ h2.resp-accordion {
     opacity: .6;
     top:0;
 
+}
+
+.rotator a {
+    position: absolute;
+    right: 1%;
+    bottom: 0;
+    display: block;
+    padding: 5px;
+    color: #ef664d;
 }

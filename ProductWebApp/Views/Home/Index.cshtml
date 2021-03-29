@@ -7,7 +7,6 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 
 <div class="header" id="head">
-
     <div class="overlay"></div>
     <div class="container">
         <div class="navbar navbar-dark navbar-expand-md py-0 px-0">
@@ -19,11 +18,10 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="top-menu navbar-collapse" id="navbar">
+            <div class="top-menu navbar-collapse collapse" id="navbar">
                 <span class="menu"> </span>
                 <ul class="navbar-nav ml-auto">
-                    <nav class="cl-effect-5">
-                        <li><a class="#head" class="scroll"><span data-hover="Home">Home</span></a></li>
+                    <nav class="cl-effect-5">                       
                         <li><a href="#about" class="scroll"><span data-hover="About">About</span></a></li>
                         <li><a href="#work" class="scroll"><span data-hover="Gallery"><span>Gallery</span></a></li>
                         <li><a href="#360View" class="scroll"><span data-hover="360°"><span>360°</span></a></li>
@@ -46,9 +44,7 @@
                     <article style="position: relative; width: 100%; opacity: 1;">
                         <div class="banner-wrap">
                             <div class="banner_center">
-                                <h1>Celebrating 20 years of success.</h1>
-                                @*<h2>Services 1 <span>Services 2</span></h2>
-                                    <h2>Contrary</h2>*@
+                                <h1>Celebrating 20 years of success.</h1>                                
                             </div>
                         </div>
                     </article>
@@ -78,42 +74,26 @@
     <div class="py-5" id="about">
         <div class="container">
             <div class="row">
-                <div class="col-md-3 col-12">
+                <div class="col-md-4 col-12">
                     <img src="~/Content/images/Aboutus.png" class="img-fluid" />
                 </div>
-                <div class="col-md-9 col-12 text-md-left text-center">
-                    <h3 class="mb-2 mt-3">About us</h3>
-                    <p class="f16 lh25">
+                <div class="col-md-8 col-12 text-md-left text-center">
+                    <h3 class="section-title mb-2 mt-3">About us</h3>
+                    <p class="f16 lh25 mb-3">
                         Vishwakarma Industries was a dream of S.R.PATEL Family. It was established in 1971 and the Goal achieved by constant endeavor of Mr.VINOD & Mr.SAHJANAND.
                     </p>
-                    <br />
-                    <p class="f16 lh25">
+                  
+                    <p class="f16 lh25 mb-3">
                         Our company started to design and manufacture a shuttle which is a tool, neatly designed and compactly store a holder that carries the thread of the weft yarn while weaving with a loom. Shuttles are thrown or passed back and forth through the shed, between the yarn threads of the warp in order to weave in the weft.
-                    </p><br />
-                    <p class="f16 lh25">
+                    </p>
+                    <p class="f16 lh25 mb-3">
                         Later we introduced a new technology first time in india in hylam block and shuttle to improve the quality and cut down the cost. The new technology is to heat the material with steam and make a cavity block.
-                    </p><br />
+                    </p>
                     <p class="f16 lh25">
                         We are still working hard to constantly improve the quality of our product to improve customer satisfaction and productivity, which brings us in a good position and most trusted company in hylame shuttle Industries.
                         We have a highly skilled team having years of experience which help us fulfill current and future requirements.
                         With the help of skilled team, loyal customers, dream of our founder and decades of efforts has helped us to expand our business from Gujarat to all over India.
-                    </p>
-                    @*<div class="clearfix"></div>*@
-                    @*<div class="services-sectiongrids">
-                            <div class="col-md-6 services-grid">
-                                <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY" />
-                                </iframe>
-                                <h4>webdesign</h4>
-                                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
-                            </div>
-                            <div class="col-md-6 services-grid">
-                                <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY" />
-                                </iframe>
-                                <h4>webdesign</h4>
-                                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
-                            </div>
-                            <div class="clearfix"></div>
-                        </div>*@
+                    </p>                    
                 </div>
             </div>
             <div class="clearfix"></div>
@@ -124,10 +104,9 @@
         </div>
     </div>
     <!-- about-section-ends -->
-    <div class="works-section" id="work">
-        <div class="works-header">
-            <h3>Product Gallery</h3>
-        </div>
+    <div class="works-section py-5" id="work">
+        
+        <h3 class="section-title text-uppercase text-center mb-3">Product Gallery</h3>        
         <div class="portfolio-section-bottom-row" id="portfolio">
             <div class="container">
                 <div id="gallery" style="display:none;">
@@ -145,17 +124,7 @@
                         }
                     }
 
-                    @*<img alt="Youtube Video"
-                             data-type="youtube"
-                             data-videoid="A3PDXmYoF5U"
-                             data-description="You can include youtube videos easily!">
-
-                        <img alt="Vimeo Video"
-                             data-type="vimeo"
-                             src="http://i.vimeocdn.com/video/447294219_200x150.jpg"
-                             data-image="http://i.vimeocdn.com/video/447294219_640.jpg"
-                             data-videoid="73234449"
-                             data-description="This gallery can also play vimeo videos!">*@
+                   
                 </div>
                 <script type="text/javascript">
                     jQuery(document).ready(function () {
@@ -172,33 +141,30 @@
     </div>
     <!-- portfolio-section-ends -->
     <!-- 360 view-start -->
-    <div class="portfolio-section-bottom-row" id="360View">
-        <br />
-        <div class="contact-header"><h3>360° View</h3></div>
+    <div class="portfolio-section-bottom-row py-5" id="360View">
         <div class="container">
-            <br />
-            <div id="view360" class="container">
-                <a href="#" class="autorotate" id="play"><img src="~/Content/images/Play.jpg" height="70" width="70"></a>
-                <a href="#" class="autorotate" id="pause"><img src="~/Content/images/Pause.jpg" height="70" width="70"></a>
+            <h3 class="section-title text-uppercase text-center">360° View</h3>
+            <div id="view360" class="container rotator">
+                <a href="javascript:void()" id="play"><i class="fa fa-play-circle-o f40" aria-hidden="true"></i></a>
+                <a href="javascript:void()" id="pause"><i class="fa fa-pause-circle f40" aria-hidden="true"></i></a>
+                @*<a href="#" class="autorotate" id="play"><img src="~/Content/images/Play.jpg" height="70" width="70"></a>
+                <a href="#" class="autorotate" id="pause"><img src="~/Content/images/Pause.jpg" height="70" width="70"></a>*@
             </div>
-        </div>
-        <br />
-        <br />
-        <br />
-        <div class="arrow">
-            <a href="#contact" class="scroll"><img src="~/Content/images/arrow.png" alt="" /></a>
+            <div class="arrow">
+                <a href="#contact" class="scroll"><img src="~/Content/images/arrow.png" alt="" /></a>
+            </div>
         </div>
     </div>
     <!-- 360 view-ends -->
 </div>
-<div class="footer-section" id="contact" id="contact">
+<div class="footer-section py-5" id="contact" id="contact">
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-12">
-                <div class="contact-header">
-                    <h3>contact us</h3>
-                    <p>Company Address : Plot No 705,  Dehgam  GIDC,  Dehgam, Gandhinagar. 382305 </p>
-                </div>
+                
+                    <h3 class="section-title text-uppercase text-center mt-3">Contact us</h3>
+                    <p class="text-center text-white mt-3">Company Address : Plot No 705,  Dehgam  GIDC,  Dehgam, Gandhinagar. 382305 </p>
+                
                 <div class="social-icon">
                     <a href="https://www.twitter.com/vishwakarmabiz" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                     <a href="https://www.facebook.com/vishwakarmaindustriesbiz" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -220,8 +186,7 @@
                         <div class="col-md-12 contactgrid1">
                             <textarea onfocus="if(this.value == 'Your Message') this.value='';" onblur="if(this.value == '') this.value='Your Message';">Your Message</textarea>
                         </div>
-                        <div class="col-md-12 contactgrid2 mt-3">
-                            @*<input type="submit" value="send Email">*@
+                        <div class="col-md-12 contactgrid2 mt-3">                            
                             <button type="button" class="btn btn-success">Send Email</button>
                         </div>
                         <div class="clearfix"></div>
@@ -232,7 +197,8 @@
             <div class="col-lg-6 col-12">  <div id="map" style="height: 600px; width:auto;"></div></div>
             <a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
         </div>
-        <div class="footer-bottom">
+
+        <div class="footer-bottom mt-5">
             <p>&copy; 2021 All rights Reserved by Vishwakarma Industries</p>
         </div>
     </div>
@@ -241,9 +207,14 @@
 
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkP9mCP7dkuTV2sZMw9_mRbdFNqGE-ObY&callback=initMap&libraries=&v=weekly"
         async></script>
+
+<script src="~/Content/js/jquery.swipebox.min.js"></script>
+
+
+
 <script type="text/javascript">
     $(document).ready(function () {
-        $().UItoTop({ easingType: 'easeOutQuart' });        
+        $().UItoTop({ easingType: 'easeOutQuart' });
     });
 
     $(window).load(function () {
@@ -266,25 +237,22 @@
             title: "Vishwakarma Industries",
         });
     }
-</script>
 
-<script src="~/Content/js/jquery.swipebox.min.js"></script>
-<link rel="stylesheet" href="~/Content/css/swipebox.css">
-<script type="text/javascript">
+
     $(document).ready(function () {
         $('#horizontalTab').easyResponsiveTabs({
             type: 'default', //Types: default, vertical, accordion
             width: 'auto', //auto or any width like 600px
             fit: true   // 100% fit in a container
         });
-    });
-    jQuery(function ($) {
-        $(".swipebox").swipebox();
-    });
-</script>
-<script>
-    $("span.menu").click(function () {
-        $(".top-menu ul").slideToggle("slow", function () {
+
+        jQuery(function ($) {
+            $(".swipebox").swipebox();
+        });
+
+        $("span.menu").click(function () {
+            $(".top-menu ul").slideToggle("slow", function () {
+            });
         });
     });
 </script>

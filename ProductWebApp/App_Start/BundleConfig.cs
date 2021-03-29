@@ -34,7 +34,11 @@ namespace ProductWebApp
                 "~/Content/css/style.css",
                 "~/Content/css/tikslus360.css",
                 "~/Content/unitegallery/css/unite-gallery.css",
-                "~/Content/unitegallery/themes/default/ug-theme-default.css"));
+                "~/Content/unitegallery/themes/default/ug-theme-default.css",
+                "~/Content/css/swipebox.css"
+                )
+                );
+
         }
     }
 }
