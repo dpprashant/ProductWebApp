@@ -227,19 +227,7 @@
                         <div class="clearfix"></div>
                     </form>
                     </br>
-                    @*<div id="whatsApp" style="padding: 15px;
-                        margin: 5px;
-                        background-color: #241d1d;
-                        color: #fff;
-                        font-size: 15px;">
-                                        <a href="https://api.whatsapp.com/send/?phone=919925333484&text&app_absent=0" target="_blank" style="color: #fff;text-decoration:none;">
-                                            <p><img src="~/Content/images/whatsapp.png" height="30" width="30" style="margin-right:8px;">Message on WhatsApp</p>
-                                        </a>
-                                    </div>*@
                 </div>
-
-
-
             </div>
             <div class="col-lg-6 col-12">  <div id="map" style="height: 600px; width:auto;"></div></div>
             <a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
@@ -251,9 +239,11 @@
 </div>
 
 
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkP9mCP7dkuTV2sZMw9_mRbdFNqGE-ObY&callback=initMap&libraries=&v=weekly"
+        async></script>
 <script type="text/javascript">
     $(document).ready(function () {
-        $().UItoTop({ easingType: 'easeOutQuart' });
+        $().UItoTop({ easingType: 'easeOutQuart' });        
     });
 
     $(window).load(function () {
@@ -263,8 +253,19 @@
         $("#view360").tikslus360({ imageDir: '../Content/images/product', imageCount: 36, imageExt: 'jpg', canvasID: 'Product', canvasWidth: width, canvasHeight: height, autoRotate: false });
         $("#pause").hide();
         //$("#view360").tikslus360({ imageDir: '../Content/images/cars', imageCount: 30, imageExt: 'jpg', canvasID: 'Product', canvasWidth: 640, canvasHeight: 480, autoRotate: true });
-        //$("#view360Verticle").tikslus360({ imageDir: '../Content/images/product', imageCount: 36, imageExt: 'jpg', canvasID: 'Product', canvasWidth: 1200, canvasHeight: 450, autoRotate: false });
     });
+    function initMap() {
+        const myLatLng = { lat: 23.1656, lng: 72.8122 };
+        const map = new google.maps.Map(document.getElementById("map"), {
+            zoom: 13,
+            center: myLatLng,
+        });
+        new google.maps.Marker({
+            position: myLatLng,
+            map,
+            title: "Vishwakarma Industries",
+        });
+    }
 </script>
 
 <script src="~/Content/js/jquery.swipebox.min.js"></script>
