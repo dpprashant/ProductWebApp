@@ -50,8 +50,7 @@
     @Scripts.Render("~/bundles/modernizr")
 
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkP9mCP7dkuTV2sZMw9_mRbdFNqGE-ObY&callback=initMap&libraries=&v=weekly"
-            async></script>
+   
     <script type="text/javascript">
         jQuery(document).ready(function ($) {
             $(".scroll").click(function (event) {
@@ -60,18 +59,7 @@
             });
         });
 
-        function initMap() {
-            const myLatLng = { lat: 23.1656, lng: 72.8122 };
-            const map = new google.maps.Map(document.getElementById("map"), {
-                zoom: 13,
-                center: myLatLng,
-            });
-            new google.maps.Marker({
-                position: myLatLng,
-                map,
-                title: "Vishwakarma Industries",
-            });
-        }
+   
     </script>
     <style>
         #map {
