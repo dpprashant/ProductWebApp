@@ -154,6 +154,7 @@
     <Content Include="Content\images\nav.png" />
     <Content Include="Content\images\Pause.jpg" />
     <Content Include="Content\images\Play.jpg" />
+    <Content Include="Content\images\Title_Icon.png" />
     <Content Include="Content\images\to-top2.png" />
     <Content Include="Content\images\whatsapp.png" />
     <Content Include="Content\images\zoom-icon.png" />
